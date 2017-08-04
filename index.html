@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Street View panorama tiles</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <div id="dot">&#10011;</div>
+      <div id="search-box">
+          <input type="text" id="pac-input" placeholder="주소를 입력해주세요">
+      </div>
+      <div id="toc">
+          <div class="option-title">Layers</div>
+          <div><input type="checkbox" name="" id="markerLayer" onclick="common.markerToggle();" checked>촬영위치</div>
+          <div><input type="checkbox" name="" id="lineLayer" onclick="lineObj.lineToggle();">촬영경로</div>
+          <div><input type="checkbox" name="" id="polygonLayer" onclick="lineObj.polygonToggle();">행정경계</div>
+          <div><input type="checkbox" name="" id="useAreaLayer" onclick="lineObj.useAreaToggle();">용도지구</div>
+          <div><input type="range" min="0" max="1" step="0.01" id="useAreaOpacity" value="0.5" oninput="lineObj.changeUseAreaOpacity(this.value)"></div>
+          <div><input type="checkbox" name="" id="kindLayer" onclick="lineObj.kindToggle();">조명환경관리구역</div>
+      </div>
+      <div id="legend">
+          <div class="option-title">빛공해 지수</div>
+          <div id="colors">
+              <div id="color1" class="colors"><span>&FilledSmallSquare;</span> 0 ~ 20</div>
+              <div id="color2" class="colors"><span>&FilledSmallSquare;</span> 21 ~ 40</div>
+              <div id="color3" class="colors"><span>&FilledSmallSquare;</span> 41 ~ 60</div>
+              <div id="color4" class="colors"><span>&FilledSmallSquare;</span> 61 ~ 80</div>
+              <div id="color5" class="colors"><span>&FilledSmallSquare;</span> 81 ~ 100</div>
+          </div>
+      </div>
+      <div id="map"></div>
+  </body>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBsYVLaGllEz-XZYoF6xv_wqPsrG0k7oFs&libraries=places"></script>
+  <script src="js/positions.json"></script>
+  <script src="js/app.js"></script>
+  <script src="js/line.js"></script>
+</html>

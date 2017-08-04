@@ -1,0 +1,109 @@
+var positions = {
+    "row": [
+        {
+            "id": "0",
+            "coords": [35.215828, 126.845980],
+            "waypoints": [],
+            "roadName": "임방울대로825번길",
+            "date": "",
+            "icon": "https://chart.apis.google.com/chart?chst=d_map_pin_icon&chld=dollar|FFFF00",
+            "title": "7080",
+            "heading": 180,
+            "lpi": 100,
+            "url": "images/7080.jpg",
+            "links": [
+                {
+                    description: "food",
+                    pano : "1",
+                    heading : 180
+                },
+            ]
+        },
+        {
+            "id": "1",
+            "coords": [35.214808, 126.845985],
+            "waypoints": [],
+            "roadName": "임방울대로825번길",
+            "date": "",
+            "icon": "https://chart.apis.google.com/chart?chst=d_map_pin_icon&chld=bus|FFFF00",
+            "title": "Food Street",
+            "heading": 180,
+            "lpi": 80,
+            "url": "images/food.jpg",
+            "links" : [
+                {
+                    description : "bake",
+                    pano : "2",
+                    heading : 180
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "coords": [35.213390, 126.845951],
+            "waypoints": [],
+            "roadName": "임방울대로825번길",
+            "date": "",
+            "icon": "https://chart.apis.google.com/chart?chst=d_map_pin_icon&chld=bus|FFFF00",
+            "title": "bake",
+            "heading": 270,
+            "lpi": 80,
+            "url": "images/bake.jpg",
+            "links" : [
+                {
+                    description : "lc_tower",
+                    pano : "3",
+                    heading : 270
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "coords": [35.213399, 126.842884],
+            "waypoints": [
+                {lat: 35.214826, lng: 126.842867},
+                {lat: 35.215308, lng: 126.842764},
+                {lat: 35.215836, lng: 126.842471},
+                {lat: 35.216314, lng: 126.842107},
+                {lat: 35.216669, lng: 126.842001},
+                {lat: 35.219387, lng: 126.841979},
+                {lat: 35.220158, lng: 126.841823},
+                {lat: 35.221506, lng: 126.841314},
+                {lat: 35.223207, lng: 126.840550}
+            ],
+            "roadName": "월계로",
+            "date": "",
+            "icon": "https://chart.apis.google.com/chart?chst=d_map_pin_icon&chld=bus|FFFF00",
+            "title": "LC tower",
+            "heading": 180,
+            "lpi": 30,
+            "url": "images/lc_tower.jpg",
+            "links" : [
+                {
+                    description : "gist",
+                    pano : "4",
+                    heading : 340
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "coords": [35.224297, 126.840142],
+            "waypoints": [],
+            "roadName": "첨단중앙로",
+            "date": "",
+            "icon": "https://chart.apis.google.com/chart?chst=d_map_pin_icon&chld=bus|FFFF00",
+            "title": "GIST",
+            "heading": 20,
+            "lpi": 0,
+            "url": "images/gist.jpg",
+            "links" : [
+                {
+                    description : "7080",
+                    pano : "0",
+                    heading : 150
+                }
+            ]
+        },
+    ]
+}

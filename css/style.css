@@ -1,0 +1,91 @@
+html, body, #map {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+.gm-iv-address-custom > p {
+    visibility: hidden;
+}
+#button {
+    right: 0;
+    top: 0;
+    font-size: 2em;
+    position: absolute;
+    z-index: 9999;
+}
+#dot {
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    visibility: hidden;
+}
+#search-box {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 320px;
+    height: 36px;
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+    background: #fff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+    transition-property: background,box-shadow;
+    transition-duration: 0.3s;
+}
+#pac-input {
+    width: 300px;
+    height: 34px;
+    margin-left: 20px;
+    z-index: 999;
+    border: none;
+    outline: none;
+}
+#toc {
+    margin: 10px;
+    z-index: 9;
+    position: absolute;
+    right: 0px;
+    display: block;
+    font-size: 11px;
+    color: rgb(86, 86, 86);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    font-family: Roboto, Arial, sans-serif;
+    min-width: 80px;
+    min-height: 14px;
+    line-height: 24px;
+    padding: 8px;
+}
+
+#legend {
+    margin: 10px;
+    z-index: 9;
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    display: block;
+    font-size: 11px;
+    color: rgb(86, 86, 86);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    font-family: Roboto, Arial, sans-serif;
+    min-width: 80px;
+    min-height: 14px;
+    line-height: 20px;
+    padding: 8px;
+}
+
+.option-title {
+    font-weight: bold;
+}
+
+#color1 > span { color: #00e600; }
+#color2 > span { color: #99ff66; }
+#color3 > span { color: #ffff66; }
+#color4 > span { color: #ff9966; }
+#color5 > span { color: #ff0066; }
